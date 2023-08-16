@@ -1,0 +1,9 @@
+body{
+    background-color: #eee;
+}
+.scale:hover{
+    transform: scale(1.03);
+  }
+  .tran{
+    transition: all 0.4s;
+  }

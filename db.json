@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "id": 11,
+      "img": "https://depsto.com/image/cache/catalog/products/obuv2106/folder2/img_20210616_135014-800x800.jpg",
+      "title": "Женские туфли Nursace 0L68. Молочные",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Nursace",
+      "price": 629,
+      "category": "shoes"
+    },
+    {
+      "id": 1,
+      "img": "https://depsto.com/image/cache/catalog/products/shavkatako2305/5papka/kosmetika1906/img_20230613_185738-300x300.jpg",
+      "title": "Мужские летние кроссовки. Тёмно-синий",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Nike",
+      "price": 452,
+      "category": "shoes"
+    },
+    {
+      "id": 2,
+      "img": "https://depsto.com/image/cache/catalog/products/shavkatako2305/5papka/kosmetika1906/img_20230613_190016-300x300.jpg",
+      "title": "Мужские летние кроссовки. Коричневый",
+      "description": "Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt. ",
+      "brand": "Adidas",
+      "price": 430,
+      "category": "shoes"
+    },
+    {
+      "id": 3,
+      "img": "https://depsto.com/image/cache/catalog/products/obuvagera2023/s2327240ec6a04b7aa82c0035ec4c5e17g-300x300.jpg",
+      "title": "Мужские часы Curren 8439",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt. .",
+      "brand": "Omega",
+      "price": 846,
+      "category": "watch"
+    },
+    {
+      "id": 4,
+      "img": "https://depsto.com/image/cache/catalog/products/obuv2023/mart2023/11052/zhenskiechasy/sf74cf2f2c1d244199a7eb92f1a1994a7z-300x300.jpg",
+      "title": "Женские часы Curren 9090",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Rolex",
+      "price": 886,
+      "category": "watch"
+    },
+    {
+      "id": 5,
+      "img": "https://depsto.com/image/cache/catalog/products/obuv2023/mart2023/11052/zhenskiechasy/s5ef606123c0440b5ab22871c36ef9294o-300x300.jpg",
+      "title": "Женские часы Curren 9095",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Rolex",
+      "price": 889,
+      "category": "watch"
+    },
+    {
+      "id": 6,
+      "img": "https://depsto.com/image/cache/catalog/products/edifice2023/01031/6061491907-800x800.jpg",
+      "title": "Беспроводные наушники Lenovo XG01 TWS.",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Lenovo",
+      "price": 356,
+      "category": "accessories"
+    },
+    {
+      "id": 7,
+      "img": "https://depsto.com/image/cache/catalog/products/books/2110.1/bluetooth-naushniki-xo-f70-plus-airpods-pro-white-13872551614443_small11-800x800.jpg",
+      "title": "Беспроводные наушники inkax",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Inkax",
+      "price": 380,
+      "category": "accessories"
+    },
+    {
+      "id": 8,
+      "img": "https://depsto.com/image/cache/catalog/products/june2022/13062022/1406.1/travel-adapter-ep-ta800nwegin-samsung-original-imag5hyudpe2xjhr-800x800.jpg",
+      "title": "Сетевое зарядное устройство 25 WPD samsung",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Samsung",
+      "price": 250,
+      "category": "accessories"
+    },
+    {
+      "id": 9,
+      "img": "https://depsto.com/image/cache/catalog/products/avgust2022/trimmer/27091/6081574417-800x800.jpg",
+      "title": "Робот-пылесос Xiaomi Dreame черный с функцией влажной уборки",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Xiaomi",
+      "price": 6900,
+      "category": "appliances"
+    },
+    {
+      "id": 10,
+      "img": "https://depsto.com/image/cache/catalog/products/shkoautumn/Simon%20Spark/aksesuary/01-800x800.jpg",
+      "title": "Пылесос Xiaomi Vacuum Cleaner mini, белый      ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Xiaomi",
+      "price": 489,
+      "category": "appliances"
+    }
+  ],
+  "basket": [
+    {
+      "id": 1,
+      "img": "https://depsto.com/image/cache/catalog/products/shavkatako2305/5papka/kosmetika1906/img_20230613_185738-300x300.jpg",
+      "title": "Мужские летние кроссовки. Тёмно-синий",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+      "brand": "Nike",
+      "price": 452,
+      "category": "shoes"
+    }
+  ],
+  "orders": [
+    [
+      {
+        "id": 1,
+        "img": "https://depsto.com/image/cache/catalog/products/shavkatako2305/5papka/kosmetika1906/img_20230613_185738-300x300.jpg",
+        "title": "Мужские летние кроссовки. Тёмно-синий",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+        "brand": "Nike",
+        "price": 452,
+        "category": "shoes"
+      },
+      {
+        "id": 11,
+        "img": "https://depsto.com/image/cache/catalog/products/obuv2106/folder2/img_20210616_135014-800x800.jpg",
+        "title": "Женские туфли Nursace 0L68. Молочные",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt.",
+        "brand": "Nursace",
+        "price": 629,
+        "category": "shoes"
+      },
+      {
+        "id": 2,
+        "img": "https://depsto.com/image/cache/catalog/products/shavkatako2305/5papka/kosmetika1906/img_20230613_190016-300x300.jpg",
+        "title": "Мужские летние кроссовки. Коричневый",
+        "description": "Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia reprehenderit officiis. Voluptatem quam vero odit? Provident hic veniam exercitationem commodi quam! Ad veritatis, minima alias eveniet quia voluptatem nesciunt. ",
+        "brand": "Adidas",
+        "price": 430,
+        "category": "shoes"
+      }
+    ]
+  ]
+}
