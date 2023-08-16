@@ -25,7 +25,6 @@ export default function Home() {
   const priceMax = useSelector(({ products }) => products.priceMax);
   const brands = useSelector(({ products }) => products.brands);
   const search = useSelector(({ products }) => products.search);
-  console.log(search);
 
   const selectByCategory = useSelector(
     ({ products }) => products.selectByCategory

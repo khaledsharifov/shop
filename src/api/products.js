@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const url = "https://my-json-server.typicode.com/khaledsharifov/db";
+const url = "https://my-json-server.typicode.com/khaledsharifov/shop";
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
