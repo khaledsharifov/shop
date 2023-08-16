@@ -10,7 +10,7 @@ import Stack from "@mui/material/Stack";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
 
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getProductById,
@@ -33,6 +33,7 @@ export default function Product() {
     setOpen(false);
   };
 
+  const navigate = useNavigate();
   const productId = useParams().productId;
 
   const [value, setValue] = React.useState("1");
@@ -47,7 +48,13 @@ export default function Product() {
     dispatch(getProductsBasket());
   }, [dispatch]);
 
-  const product = useSelector(({ products }) => products.product);
+  const result = useSelector(({ products }) => products.product);
+
+  if (result.status == 404) {
+    navigate("404");
+  }
+  
+  const product = result.data;
 
   function handleBasketAdd(product) {
     dispatch(postProduct(product));

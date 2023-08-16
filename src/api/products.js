@@ -1,11 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
+
 const url = "https://my-json-server.typicode.com/khaledsharifov/shop";
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async (id) => {
-    console.log(id);
     try {
       const response = await fetch(url + "/products");
       const data = await response.json();
@@ -24,7 +24,10 @@ export const getProductById = createAsyncThunk(
       const response = await fetch(url + "/products/" + id);
       const data = await response.json();
 
-      return data;
+      return {
+        data,
+        status: response.status
+      };
     } catch (error) {
       console.log(error);
     }

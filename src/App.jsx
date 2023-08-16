@@ -5,9 +5,10 @@ import {  RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout/Layout'
 import Home from './Pages/Home/Home'
 import Product from './Pages/Product/Product'
-import Nothing from './Pages/Nothing/Nothing'
+import Nothing from './Pages/404/NotFound'
 import Basket from './Pages/Basket/Basket'
 import Checkout from './Pages/Checkout/Checkout'
+import NotFound from './Pages/404/NotFound'
 
 
 const router = createBrowserRouter([
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
             },
             {
               path: "*",
-              element: <Nothing/>
+              element: <NotFound/>
+            },
+            {
+              path: "404",
+              element: <NotFound/>
             }
         ]
     }
