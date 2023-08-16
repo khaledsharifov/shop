@@ -6,7 +6,7 @@ import Layout from './Layout/Layout'
 import Home from './Pages/Home/Home'
 import Product from './Pages/Product/Product'
 import Nothing from './Pages/Nothing/Nothing'
-import Basket from './Pages/Buying/Basket'
+import Basket from './Pages/Basket/Basket'
 import Checkout from './Pages/Checkout/Checkout'
 
 
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
                 element: <Product/>
             },
             {
-                path: "buying",
+                path: "basket",
                 element: <Basket/>
             },
             {

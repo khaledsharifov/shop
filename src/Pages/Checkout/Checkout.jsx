@@ -47,90 +47,110 @@ export default function Checkout() {
   }
 
   return (
-    <div className="bg-[white] mt-10 rounded-[20px]">
-      <div>
-        <Stack spacing={2} sx={{ width: "100%" }}>
-          <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
-            <Alert
-              onClose={handleClose}
-              severity="success"
-              sx={{ width: "100%" }}
-            >
-              Your order has been accepted!
-            </Alert>
-          </Snackbar>
-        </Stack>
-      </div>
-      <div className=" my-10  p-8 w-[60%] m-auto">
-        <p className="text-[40px] font-[700]">Оформление заказа</p>
-        <div>
-          <p className="py-4 text-[25px] font-[600]">Детали оплаты</p>
-          <div className="flex gap-4 w-[100%]">
+    <div className=" container m-[0_auto]">
+      <div className="w-[90%] m-auto">
+        <div className="bg-[white] mt-10 rounded-[20px]">
+          <div>
+            <Stack spacing={2} sx={{ width: "100%" }}>
+              <Snackbar
+                open={open}
+                autoHideDuration={3000}
+                onClose={handleClose}
+              >
+                <Alert
+                  onClose={handleClose}
+                  severity="success"
+                  sx={{ width: "100%" }}
+                >
+                  Your order has been accepted!
+                </Alert>
+              </Snackbar>
+            </Stack>
+          </div>
+          <div className=" my-10  p-8 w-[60%] m-auto">
+            <p className="text-[40px] font-[700]">Оформление заказа</p>
             <div>
-              <p className="font-[600] py-1">Имя</p>
-              <input
-                value={name}
-                onChange={(e) => dispatch(setName(e.target.value))}
-                type="text"
-                className="border p-2 w-[370px]  rounded-[6px]"
-              />
-            </div>
-            <div>
-              <p className="font-[600] py-1">Фамилия </p>
-              <input
-                type="text"
-                className="border w-[370px] p-2 rounded-[6px]"
-              />
-            </div>
-          </div>
-          <div className="py-2">
-            <p className="font-[600] py-1">
-              Название компании (необязательно){" "}
-            </p>
-            <input type="text" className="border w-[100%] p-2 rounded-[6px]" />
-          </div>
-          <p className="font-[600] py-1">Страна/регион</p>
-          <p className="font-[600] py-1">Таджикистан</p>
-          <div className="py-2">
-            <p className="font-[600] py-1">Адрес </p>
-            <input
-              placeholder="Номер дома и название улицы"
-              type="text"
-              className="border w-[100%] p-2 rounded-[6px]"
-            />
-          </div>
-          <div className="py-2">
-            <p className="font-[600] py-1">Населённый пункт </p>
-            <input type="text" className="border w-[100%] p-2 rounded-[6px]" />
-          </div>
-          <div className="py-2">
-            <p className="font-[600] py-1">Область / район </p>
-            <input type="text" className="border w-[100%] p-2 rounded-[6px]" />
-          </div>
-          <div className="py-2">
-            <p className="font-[600] py-1">Телефон </p>
-            <input
-              value={phone}
-              onChange={(e) => dispatch(setPhone(e.target.value))}
-              type="text"
-              className="border w-[100%] p-2 rounded-[6px]"
-            />
-          </div>
-          <div className="py-2">
-            <p className="font-[600] py-1">Email </p>
-            <input type="text" className="border w-[100%] p-2 rounded-[6px]" />
-          </div>
+              <p className="py-4 text-[25px] font-[600]">Детали оплаты</p>
+              <div className="flex gap-4 w-[100%]">
+                <div>
+                  <p className="font-[600] py-1">Имя</p>
+                  <input
+                    value={name}
+                    onChange={(e) => dispatch(setName(e.target.value))}
+                    type="text"
+                    className="border p-2 w-[370px]  rounded-[6px]"
+                  />
+                </div>
+                <div>
+                  <p className="font-[600] py-1">Фамилия </p>
+                  <input
+                    type="text"
+                    className="border w-[370px] p-2 rounded-[6px]"
+                  />
+                </div>
+              </div>
+              <div className="py-2">
+                <p className="font-[600] py-1">
+                  Название компании (необязательно){" "}
+                </p>
+                <input
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
+              <p className="font-[600] py-1">Страна/регион</p>
+              <p className="font-[600] py-1">Таджикистан</p>
+              <div className="py-2">
+                <p className="font-[600] py-1">Адрес </p>
+                <input
+                  placeholder="Номер дома и название улицы"
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
+              <div className="py-2">
+                <p className="font-[600] py-1">Населённый пункт </p>
+                <input
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
+              <div className="py-2">
+                <p className="font-[600] py-1">Область / район </p>
+                <input
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
+              <div className="py-2">
+                <p className="font-[600] py-1">Телефон </p>
+                <input
+                  value={phone}
+                  onChange={(e) => dispatch(setPhone(e.target.value))}
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
+              <div className="py-2">
+                <p className="font-[600] py-1">Email </p>
+                <input
+                  type="text"
+                  className="border w-[100%] p-2 rounded-[6px]"
+                />
+              </div>
 
-          <div className="bg-[#eee] p-4 rounded-[6px]">
-            <p className="font-[600]">Оплата при доставке</p>
-            <p className="py-2">Оплата наличными при доставке заказа.</p>
+              <div className="bg-[#eee] p-4 rounded-[6px]">
+                <p className="font-[600]">Оплата при доставке</p>
+                <p className="py-2">Оплата наличными при доставке заказа.</p>
+              </div>
+              <p
+                onClick={() => handleOrders()}
+                className="bg-[blue] text-[white] my-4 p-2 text-center rounded-[6px] cursor-pointer text-[18px]"
+              >
+                Подтвердить заказ
+              </p>
+            </div>
           </div>
-          <p
-            onClick={() => handleOrders()}
-            className="bg-[blue] text-[white] my-4 p-2 text-center rounded-[6px] cursor-pointer text-[18px]"
-          >
-            Подтвердить заказ
-          </p>
         </div>
       </div>
     </div>

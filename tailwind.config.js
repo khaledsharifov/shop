@@ -8,8 +8,6 @@ export default {
 
       ml: "1250px",
 
-      lg: "1000px" ,
-
       lg: "850px",
 
       md: "700px" ,

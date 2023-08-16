@@ -37,7 +37,7 @@ export default function Basket() {
   return (
     <div>
       <div className="container m-[0_auto]">
-        <div className="">
+        <div className="w-[90%] m-auto">
           <div className="py-[45px] ">
             <div className="">
               <div>
@@ -79,8 +79,8 @@ export default function Basket() {
                               </TableCell>
                               <TableCell>
                                 <input
-                                min={0}
-                                max={20}
+                                  min={0}
+                                  max={20}
                                   type="number"
                                   className="w-[80px] p-2 border rounded-[5px]"
                                 />
